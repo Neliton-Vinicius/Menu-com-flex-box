@@ -1,0 +1,50 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+.header{
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+img{
+    vertical-align: middle;
+    
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.menu li a {
+    padding: 10px 5px;
+    transition: 0,3s ease-in-out;
+    margin: 15px;
+}
+
+.menu li a:hover {
+    background-color: #5bc241;
+    color: #ffffffff;
+}
+
+.menu li a.btn {
+    background-color: #5bc241;
+    border-radius: 10px;
+    color: #ffffffff;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+
